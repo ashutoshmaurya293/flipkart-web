@@ -26,7 +26,7 @@ nav ul {
   display: flex;
   align-items: center;
   line-height: 30px;
-  font-family: Roboto, Arial, sans-serif; 
+  font-family: Roboto, Arial, sans-serif;
   justify-content: space-around;
   font-size: 16px;
   font-weight: bold;
@@ -34,7 +34,7 @@ nav ul {
   margin-right: 50px;
   color: #fefaf3;
 }
-nav ul  li{
+nav ul li {
   cursor: pointer;
 }
 header {
@@ -119,30 +119,38 @@ section div .box1 {
   transition: all ease 0.5s;
 }
 .box1:hover img {
-  scale: 1.1;
+  scale: 1.05;
 }
 .Container2 {
-    height: 36vh;
-    width: 100%;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    /* margin-top: 12px; */
-    align-items: center;
-    background-color: #fff;
+  height: 36vh;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  /* margin-top: 12px; */
+  align-items: center;
+  background-color: #fff;
 }
 .box2 {
   height: 35vh;
   width: 67vh;
   justify-content: space-evenly;
   background-color: #f1f3f6;
-  overflow: hidden;
+overflow: hidden;
 }
-.box2 img{
-    height: 35vh;
-    width: 67vh;
-    transition: all ease 0.5s;
+.box2 img {
+  height: 35vh;
+  width: 67vh;
+  transition: all ease 0.2s;
 }
 .box2:hover img {
-    scale: 1.07;
-  }
+  scale: 1.03;
+}
+.product {
+  margin-left: 100px;
+  margin-top: 23px;
+  margin-bottom: 23px;
+  color: #212121;
+  background-color: #f1f3f6;
+  font-size: 25px;
+}
