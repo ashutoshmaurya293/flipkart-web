@@ -103,7 +103,7 @@ header div p {
 }
 section div .box1 {
   height: 45vh;
-  width: 30vh;
+  width: 32vh;
   gap: 10px;
   background-color: #fff;
 }
@@ -112,9 +112,9 @@ section div .box1 {
   background-color: #f1f3f6;
 }
 .box1 img {
-  height: 25vh;
-  width: 20vh;
-  margin: 0px 16px;
+  height: 27vh;
+  width: 25vh;
+  margin: 0px 5px;
   margin-top: 30px;
   transition: all ease 0.4s;
 }
