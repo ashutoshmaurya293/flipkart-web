@@ -154,3 +154,42 @@ overflow: hidden;
   background-color: #f1f3f6;
   font-size: 25px;
 }
+
+footer .main{
+  height: 22.3vw;
+  width: 99vw;
+  background-color: #172337;
+  color: #fff;
+  display: flex;
+align-items: center;
+}
+/* .ABOUT{
+  height: 35%;
+  width: 10%;
+  background-color: red;
+  margin: 50px;
+  position: absolute;
+
+} */
+.first{
+  height: 75%;
+  width: 50%;
+  background-color: red;
+}
+/* .first ul{
+  display: flex;
+justify-content: space-around;
+list-style: none;
+font-size: 13px;
+color: #878787;
+} */
+
+.first table{
+  list-style: none;
+margin: 20px;
+
+}
+.first table th{
+  margin-left: 10px;
+  gap: 10px;
+}
