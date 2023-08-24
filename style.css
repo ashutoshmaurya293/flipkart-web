@@ -23,7 +23,8 @@ body {
 }
 nav {
   background-color: #2874f0;
-
+  position: sticky;
+  top: 0px;
 }
 .login{
   height: 38px;
@@ -49,6 +50,9 @@ nav ul {
 nav ul li {
   cursor: pointer;
 }
+nav i{
+  margin-right: 13px;
+}
 header {
   display: flex;
   justify-content: center;
@@ -68,6 +72,7 @@ header div p {
 .swiper {
   width: 100%;
   height: 100%;
+
 }
 
 .swiper-slide {
@@ -82,7 +87,7 @@ header div p {
 }
 
 .swiper-slide img {
-  display: block;
+  /* display: block; */
   width: 100%;
   height: 100%;
   object-fit: cover;
